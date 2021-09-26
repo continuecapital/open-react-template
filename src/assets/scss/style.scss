@@ -5,10 +5,8 @@
 /*--------------------------------------------------------------
 # Variables, functions and mixins
 --------------------------------------------------------------*/
-@import "core/abstracts/functions",
-		"settings/settings",
-        "core/abstracts/mixins",
-        'core/abstracts/include-media';
+@import "core/abstracts/functions", "settings/settings", "core/abstracts/mixins",
+	"core/abstracts/include-media";
 
 /*--------------------------------------------------------------
 # Normalize
@@ -111,6 +109,11 @@
 # Testimonial
 --------------------------------------------------------------*/
 @import "core/sections/testimonial";
+
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+@import "core/sections/portfolio";
 
 /*--------------------------------------------------------------
 # Call to action

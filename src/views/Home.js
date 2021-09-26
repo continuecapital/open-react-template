@@ -5,6 +5,7 @@ import FeaturesTiles from '../components/sections/FeaturesTiles';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
+import Portfolio from '../components/sections/Portfolio';
 
 const Home = () => {
 
@@ -14,6 +15,7 @@ const Home = () => {
       <FeaturesTiles />
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
       <Testimonial topDivider />
+      <Portfolio invertMobile topDivider />
       <Cta split />
     </>
   );
