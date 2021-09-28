@@ -39,7 +39,7 @@ const Contact = ({
   const tilesClasses = classNames('tiles-wrap center-content', pushLeft && 'push-left')
 
   const sectionHeader = {
-    title: 'About Us',
+    title: 'Contact Us',
     paragraph: 'Any question? Reach out to us and we’ll get back to you shortly.',
   }
 
