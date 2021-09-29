@@ -74,58 +74,6 @@ const Contact = ({
                 </div>
               </div>
             </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-content">
-                  <div className="features-tiles-item-image mb-16" style={{ padding: '4px' }}>
-                    <svg
-                      t="1632851205309"
-                      class="icon"
-                      viewBox="0 0 1024 1024"
-                      version="1.1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      p-id="5365"
-                      width="30"
-                      height="30"
-                    >
-                      <path
-                        fill="#ffffff"
-                        d="M512 128c-131.8 0-238.6 107.4-238.6 240 0 229.2 238.6 528 238.6 528s238.6-298.8 238.6-528C750.6 235.4 643.8 128 512 128zM512 484.4c-62.4 0-112.8-50.8-112.8-113.4 0-62.6 50.6-113.6 112.8-113.6 62.4 0 112.8 50.8 112.8 113.6C624.8 433.6 574.4 484.4 512 484.4z"
-                        p-id="5366"
-                      ></path>
-                    </svg>
-                  </div>
-                  <p className="m-0 text-sm">845 Market St San Francisco, CA 94103</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-content">
-                  <div className="features-tiles-item-image mb-16" style={{ padding: '6px' }}>
-                    <svg
-                      t="1632851387789"
-                      class="icon"
-                      viewBox="0 0 1024 1024"
-                      version="1.1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      p-id="9071"
-                      width="28"
-                      height="28"
-                    >
-                      <path
-                        d="M128 512h384v384h42.666667l341.333333-768-768 341.333333z"
-                        p-id="9072"
-                        fill="#ffffff"
-                      ></path>
-                    </svg>
-                  </div>
-                  <p className="m-0 text-sm">No. 31, LongCheng Road, Qingdao, China</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
