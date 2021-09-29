@@ -49,7 +49,7 @@ const FeaturesSplit = ({
   )
 
   const sectionHeader = {
-    title: 'Our Strength',
+    title: 'OUR STRENGTH',
     paragraph:
       'Continue Capital, with strong resource integration competitiveness in the space, is a strategic investor able to negotiate favorable deals for new projects.',
   }

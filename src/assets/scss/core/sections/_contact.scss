@@ -49,6 +49,12 @@
     padding-left: $features-tiles-item--inner-padding-h;
     padding-right: $features-tiles-item--inner-padding-h;
   }
+
+  .features-tiles-item-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @include media('>medium') {

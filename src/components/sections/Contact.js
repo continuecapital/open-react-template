@@ -39,7 +39,7 @@ const Contact = ({
   const tilesClasses = classNames('tiles-wrap center-content', pushLeft && 'push-left')
 
   const sectionHeader = {
-    title: 'Contact Us',
+    title: 'CONTACT US',
     paragraph: 'Any question? Reach out to us and we’ll get back to you shortly.',
   }
 
@@ -52,7 +52,7 @@ const Contact = ({
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-content">
-                  <div className="features-tiles-item-image mb-16" style={{ padding: '6px' }}>
+                  <span className="features-tiles-item-image mr-8" style={{ padding: '6px' }}>
                     <svg
                       t="1632851231187"
                       class="icon"
@@ -69,7 +69,7 @@ const Contact = ({
                         p-id="6896"
                       ></path>
                     </svg>
-                  </div>
+                  </span>
                   <p className="m-0 text-sm">contact@continue.capital</p>
                 </div>
               </div>

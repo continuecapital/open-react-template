@@ -32,7 +32,7 @@ const FeaturesTiles = ({
   )
 
   const innerClasses = classNames(
-    'features-tiles-inner section-inner pt-0',
+    'features-tiles-inner section-inner pt-32',
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider'
   )
@@ -40,16 +40,16 @@ const FeaturesTiles = ({
   const tilesClasses = classNames('tiles-wrap center-content', pushLeft && 'push-left')
 
   const sectionHeader = {
-    title: 'About Us',
+    title: 'ABOUT US',
     paragraph:
       'Founded in 2016, Continue Capital focuses on investing in global blockchain technology, early-stage technology startup and providing Quant-Trading service. We are built to incubate and partner with those ambitious enterprises that promote technological innovation and advance business model revolution.',
   }
 
   return (
     <section {...props} className={outerClasses}>
-      <div className="container">
+      <div className="container pt-16">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <SectionHeader data={sectionHeader} className="center-content pt-32" />
           <div className={tilesClasses}>
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">

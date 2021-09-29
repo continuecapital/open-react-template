@@ -11,7 +11,7 @@ import Contact from '../components/sections/Contact'
 const Home = () => {
   return (
     <>
-      <Hero className="illustration-section-01" />
+      <Hero id="home" className="illustration-section-01" />
       <FeaturesTiles id="about" />
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
       <Testimonial id="team" topDivider />

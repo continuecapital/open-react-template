@@ -69,10 +69,10 @@ const Header = ({ className, navPosition, hideNav, hideSignin, bottomOuterDivide
     }
   }
 
-  const classes = classNames('site-header', bottomOuterDivider && 'has-bottom-divider', className)
+  const classes = classNames('site-header', bottomOuterDivider && 'has-bottom-divider', className, 'header_fixed')
 
   return (
-    <header id="home" {...props} className={classes}>
+    <header {...props} className={classes}>
       <div className="container">
         <div className={classNames('site-header-inner', bottomDivider && 'has-bottom-divider')}>
           <Logo />
