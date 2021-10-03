@@ -3,7 +3,8 @@
   top: 0;
   width: 100%;
   z-index: 10 !important;
-  background: color-bg(body);
+  // background: color-bg(body);
+  background: #071162;
   border-bottom: 1px solid color-border(divider);
 
   + .site-content {
