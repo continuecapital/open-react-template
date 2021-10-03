@@ -65,9 +65,9 @@ const FeaturesSplit = ({
                 className="split-item-content center-content-mobile reveal-from-left"
                 data-reveal-container=".split-item"
               >
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">Our Strength</div>
-                <h3 className="mt-0 mb-12">Strong Technical Background</h3>
-                <p className="m-0">
+                <div className="text-xxs slug-text-color fw-600 tt-u mb-8">Our Strength</div>
+                <h4 className="mt-0 mb-12">Strong Technical Background</h4>
+                <p className="m-0 features-text">
                   Our team’s profound industry knowledge and strong technical background are recognized in Blockchain
                   industry. Those rich experience in blockchain and other high-tech development equip us with the
                   ability to identify promising projects and invest them strategically in early stage.
@@ -91,9 +91,9 @@ const FeaturesSplit = ({
                 className="split-item-content center-content-mobile reveal-from-right"
                 data-reveal-container=".split-item"
               >
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">Our Strength</div>
-                <h3 className="mt-0 mb-12">Rich Experience</h3>
-                <p className="m-0">
+                <div className="text-xxs slug-text-color fw-600 tt-u mb-8">Our Strength</div>
+                <h4 className="mt-0 mb-12">Rich Experience</h4>
+                <p className="m-0 features-text">
                   We have witnessed the rapid development of the whole blockchain industry, had a deep insight into the
                   development of blockchain technology.Our team has researched thousands of blockchain projects till
                   now, which makes us prominent in the whole industry.
@@ -117,9 +117,9 @@ const FeaturesSplit = ({
                 className="split-item-content center-content-mobile reveal-from-left"
                 data-reveal-container=".split-item"
               >
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">Our Strength</div>
-                <h3 className="mt-0 mb-12">Global Community</h3>
-                <p className="m-0">
+                <div className="text-xxs slug-text-color fw-600 tt-u mb-8">Our Strength</div>
+                <h4 className="mt-0 mb-12">Global Community</h4>
+                <p className="m-0 features-text">
                   Team members are located in US, China and Japan, excel in searching new projects globally, perform
                   extensive due diligence and research on each new project early on to identify the most profitable
                   digital assets to invest in.
@@ -143,9 +143,9 @@ const FeaturesSplit = ({
                 className="split-item-content center-content-mobile reveal-from-left"
                 data-reveal-container=".split-item"
               >
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">Our Strength</div>
-                <h3 className="mt-0 mb-12">Strong Resource</h3>
-                <p className="m-0">
+                <div className="text-xxs slug-text-color fw-600 tt-u mb-8">Our Strength</div>
+                <h4 className="mt-0 mb-12">Strong Resource</h4>
+                <p className="m-0 features-text">
                   We provide high-quality value-added services to our portfolio projects, with multi-dimension ecosystem
                   including Wallets, Exchanges, Mining pools, Incubator, Medias and other vertical industry.
                 </p>
