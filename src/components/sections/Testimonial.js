@@ -41,7 +41,7 @@ const Testimonial = ({
   const tilesClasses = classNames('tiles-wrap', pushLeft && 'push-left')
 
   const sectionHeader = {
-    title: 'Our Team',
+    title: 'OUR TEAM',
     paragraph: '',
   }
 
