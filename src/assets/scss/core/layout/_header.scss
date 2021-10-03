@@ -16,6 +16,13 @@
   .brand {
     margin-right: $header-nav--padding-h;
   }
+
+  .portfolio-button {
+    background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    border-width: 0px;
+    color: #fff;
+    border-radius: 40px;
+  }
 }
 
 .site-header-inner {
@@ -58,9 +65,10 @@
     text-transform: $link-header--transform;
     padding: 0 $header-nav--padding-h;
 
-    .invert-color & {
-      @include anchor-aspect(header, inverse);
-    }
+    // .invert-color & {
+    //   @include anchor-aspect(header, inverse);
+    // }
+    color: #fff;
   }
 
   a.button {

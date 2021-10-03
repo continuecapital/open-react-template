@@ -47,7 +47,7 @@ const Hero = ({
             <div className="hero-top-content">
               <div>
                 <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-                  Built to be the <span className="text-color-primary">Catalyst</span>
+                  Built to be the <span className="title-text-color">Catalyst</span>
                 </h1>
                 <div className="container-xs">
                   <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
@@ -55,7 +55,7 @@ const Hero = ({
                   </p>
                   <div className="reveal-from-bottom" data-reveal-delay="600">
                     <ButtonGroup>
-                      <Button tag="a" color="primary" wideMobile href="/#contact">
+                      <Button tag="a" color="primary" className="portfolio-button" wideMobile href="/#contact">
                         CONTACT US
                       </Button>
                     </ButtonGroup>

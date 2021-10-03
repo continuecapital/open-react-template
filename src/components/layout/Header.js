@@ -113,7 +113,7 @@ const Header = ({ className, navPosition, hideNav, hideSignin, bottomOuterDivide
                       <li>
                         <Link
                           to="#portfolio"
-                          className="button button-primary button-wide-mobile button-sm"
+                          className="button portfolio-button button-wide-mobile button-sm"
                           onClick={() => scrollToAnchorAndCloseMenu('portfolio')}
                         >
                           Portfolio
