@@ -38,6 +38,15 @@ const Hero = ({
     bottomDivider && 'has-bottom-divider'
   )
 
+  const scrollToAnchor = (anchorName) => {
+    if (anchorName) {
+      let anchorElement = document.getElementById(anchorName)
+      if (anchorElement) {
+        anchorElement.scrollIntoView({ behavior: 'smooth' })
+      }
+    }
+  }
+
   return (
     <section {...props} className={outerClasses}>
       <div className="container-sm">
@@ -55,7 +64,13 @@ const Hero = ({
                   </p>
                   <div className="reveal-from-bottom" data-reveal-delay="600">
                     <ButtonGroup>
-                      <Button tag="a" color="primary" className="portfolio-button" wideMobile href="/#contact">
+                      <Button
+                        tag="a"
+                        color="primary"
+                        className="portfolio-button"
+                        wideMobile
+                        onClick={() => scrollToAnchor('contact')}
+                      >
                         CONTACT US
                       </Button>
                     </ButtonGroup>
