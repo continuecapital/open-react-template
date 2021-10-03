@@ -69,10 +69,12 @@
     //   @include anchor-aspect(header, inverse);
     // }
     color: #fff;
+    font-size: 13px;
   }
 
   a.button {
     margin-left: $header-nav--padding-h;
+    font-size: 13px;
   }
 }
 

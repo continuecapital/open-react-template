@@ -89,22 +89,22 @@ const Header = ({ className, navPosition, hideNav, hideSignin, bottomOuterDivide
                   <ul className={classNames('list-reset text-xs', navPosition && `header-nav-${navPosition}`)}>
                     <li>
                       <Link to="#home" onClick={() => scrollToAnchorAndCloseMenu('home')}>
-                        Home
+                        HOME
                       </Link>
                     </li>
                     <li>
                       <Link to="#about" onClick={() => scrollToAnchorAndCloseMenu('about')}>
-                        About
+                        ABOUT
                       </Link>
                     </li>
                     <li>
                       <Link to="#team" onClick={() => scrollToAnchorAndCloseMenu('team')}>
-                        Team
+                        TEAM
                       </Link>
                     </li>
                     <li>
                       <Link to="#contact" onClick={() => scrollToAnchorAndCloseMenu('contact')}>
-                        Contact
+                        CONTACT
                       </Link>
                     </li>
                   </ul>
@@ -116,7 +116,7 @@ const Header = ({ className, navPosition, hideNav, hideSignin, bottomOuterDivide
                           className="button portfolio-button button-wide-mobile button-sm"
                           onClick={() => scrollToAnchorAndCloseMenu('portfolio')}
                         >
-                          Portfolio
+                          PORTFOLIO
                         </Link>
                       </li>
                     </ul>
