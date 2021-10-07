@@ -1,25 +1,28 @@
-[class*=illustration-] {
-	position: relative;
+[class*='illustration-'] {
+  position: relative;
 
-	&::after {
-		pointer-events: none;
-	}
+  &::after {
+    pointer-events: none;
+  }
 }
 
-[class*=illustration-element-]::after {
-	z-index: -1;
+[class*='illustration-element-']::after {
+  z-index: -1;
 }
 
-[class*=illustration-section-]::after {
-	z-index: -2;
+[class*='illustration-section-']::after {
+  z-index: -2;
 }
 
 // Hero illustration
-.illustration-section-01::after {
-	@include illustration('illustration-section-01.svg', 100%, 286px, top);
+.illustration-section-01 {
+  background: url(../../../images/header-shape-lobelia.png) top center no-repeat,
+    linear-gradient(to top, #0a1992 0%, #000537 100%);
+  background-size: 100%;
+  position: relative;
 }
 
 // Features illustration 02
 .illustration-section-02::after {
-	@include illustration('illustration-section-02.svg', 100%, 253px, null, null, 30px);
+  @include illustration('illustration-section-02.svg', 100%, 253px, null, null, 30px);
 }
